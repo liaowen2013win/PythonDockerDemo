@@ -7,5 +7,5 @@ docker build -t docker-tonado:0.1 .
 ### 运行
 docker run -d --name docker_tonado_app -v $PWD/app:/app -p 9999:9999 docker-tonado:0.1
 
-启动后，使用服务器ip+9999访问
+启动后，使用服务器 ip:9999 访问
 
